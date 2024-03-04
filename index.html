@@ -1,0 +1,853 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOON WALK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+<body style="min-height: 100vh;">
+    <nav class="navbar navbar-expand-lg fixed-top  " style="background-color: rgb(116, 207, 238);">
+        <div class="container-fluid">
+            <a class="navbar-brand"><strong>MoonWalk</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#About">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#review">Review</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#Services">Services</a>
+                    </li>
+                    <li>
+                        <div class="login">
+                            <button class="btn btn-outline-primary" onclick="window.location.href='cart.html'" style="color: white;" type="submit"><i class="fa-solid fa-cart-shopping"></i></button>
+                            <button class="btn btn-outline-primary" onclick="window.location.href='login.html'" style="color: white;" type="submit"><i class="fa-solid fa-user"></i></button>
+                            <img class="logo" src="images/logo.png">
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+    <!-- home-->
+    <div class="home_content" id="#home">
+
+        <p class="home_para">
+            <span style="font-size: 28px;">MoonWalk</span><br><br><span> Welcome to MoonWalk - Step into Style!</span> <br> At MoonWalk, we believe that every step should be a stylish one. Whether you're strolling through the city streets, hitting the
+            gym, or stepping into the boardroom, we've got the perfect pair of shoes to complement your lifestyle. <br><span>Discover Your Perfect Pair </span><br> Browse our extensive collection of footwear, curated to cater to every taste, occasion,
+            and preference. From sleek sneakers to elegant heels, durable boots to cozy slippers, we've got something for everyone.
+            <br><span> Quality Meets Comfort </span><br> Crafted with precision and attention to detail, our shoes not only exude style but also prioritize comfort and durability. We source only the finest materials to ensure that each step you take feels
+            as good as it looks. <br> <span>Stay Connected </span><br> Join our community of shoe enthusiasts by subscribing to our newsletter. Be the first to know about new arrivals, exclusive promotions, and insider tips on how to elevate your shoe
+            game. <br><span> Experience
+            the MoonWalk Difference </span><br> Shop with confidence knowing that you're not just purchasing shoes, but investing in quality, style, and unparalleled customer service. Step into a world of endless possibilities with MoonWalk. Feel free
+            to customize this message to fit the tone and branding of your shoe company</p><br><br>
+        <div class="home-right">
+            <div class="home-pic">
+                <img src="images/about4.jpeg">
+            </div>
+            <div class="home_button">
+                <div style="height: 50px;">
+                    <a href="#products" class="about_btn">Shop Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="br"><br><br><br><br></div>
+    <div class="container">
+        <p style="text-align :right ; font-weight: bold; font-style: italic;"> Happy browsing,<br> The MoonWalk Team</p>
+    </div>
+    <div class="br"><br><br></div>
+
+
+
+
+
+    <!--Products-->
+    <div class="products" id="products">
+        <h1>Products</h1><br><br>
+
+        <div class="row" id="row1" style="justify-content: center;">
+            <div class="col-12 col-md-4 col-lg-4 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel1" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel1" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/about1.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/about2.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/about3.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel1" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel1" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>THREADS</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a onclick="addItemToCart('item1', ' THREADS ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel2" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro11.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro12.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro13.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel2" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel2" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>USPA</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item2', ' USPA ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel3" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel3" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro21.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro22.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" style="height: 220px;" data-bs-interval="2000">
+                                        <img src="images/pro23.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel3" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel3" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>NIKE</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item3', ' NIKE BROWNY ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-4 col-lg-4 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel4" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel4" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro31.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro32.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro33.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel4" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel4" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>NIKE</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item4', ' NIKE BLUE ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div class="br"><br><br></div>
+        <div class="row " id="row1 " style="justify-content: center;">
+            <div class="col-12 col-md-6 col-lg-3 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel5" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel5" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel5" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel5" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro41.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro42.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro43.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel5" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel5" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>AIR STRIKE</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item5', ' AIR STRIKE ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel6" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel6" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro51.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro52.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro53.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel6" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel6" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>CAMPUS</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item6', ' CAMPUS ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-sm-2 " id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel7" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel7" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel7" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel7" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro61.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro62.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel7" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel7" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>RED TAPE</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item7', ' RED TAPE ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 col-sm-2" id="box1" style="width: auto;">
+                <div class="pro_card" style="overflow: hidden;">
+                    <div class="small_card">
+                        <i class="fa-solid fa-heart"></i>
+                        <i class="fa-solid fa-share"></i>
+                    </div>
+                    <div class="card-top">
+                        <div class="pro_image">
+                            <div id="carousel8" class="carousel slide cross-fade" style="width: 100%">
+                                <div class="carousel-indicators">
+                                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                    <button type="button" data-bs-target="#carousel8" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                </div>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active" data-bs-interval="2000">
+                                        <img src="images/pro71.jpeg" class="d-block w-100">
+                                    </div>
+                                    <div class="carousel-item" data-bs-interval="2000">
+                                        <img src="images/pro72.jpeg" class="d-block w-100">
+                                    </div>
+                                </div>
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carousel8" data-bs-slide="prev">
+                                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Previous</span>
+                                    </button>
+                                <button class="carousel-control-next" type="button" data-bs-target="#carousel8" data-bs-slide="next">
+                                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                      <span class="visually-hidden">Next</span>
+                                    </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-body">
+                        <h2>SIR CORBETT</h2>
+                        <h3>$100.99</h3>
+                        <div class="products_star">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <a h onclick="addItemToCart('item8', ' SIR CORBETT ', 100.99)" class="btn">Add To Cart</a>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <br><br>
+    <!-- about-->
+    <div class="about" id="About">
+
+        <h1>Who Are We ?</h1>
+
+        <div class="about_main">
+            <div class="about_image">
+                <div class="about_small_image">
+                    <img src="images/about1.jpeg" onclick="functio(this)">
+                    <img src="images/about2.jpeg" onclick="functio(this)">
+                    <img src="images/about3.jpeg" onclick="functio(this)">
+                    <img src="images/about4.jpeg" onclick="functio(this)">
+                </div>
+
+                <div class="image_contaner">
+                    <img src="images/main_pic.jpeg" id="imagebox">
+                </div>
+
+            </div>
+
+            <div class="about_text">
+                <p>
+                    Welcome to MoonWalk, where every step tells a story of innovation and passion. Established in 2024, our journey began with a simple yet ambitious goal: to revolutionize the footwear industry. From humble beginnings, we have grown into a trusted name,
+                    known for our commitment to quality, style, and unparalleled customer satisfaction. <br> Since our inception, we have stayed true to our founding principles, combining cutting-edge technology with timeless craftsmanship
+                    to create shoes that not only meet but exceed expectations. With each passing year, we have expanded our offerings, constantly pushing the boundaries of design and comfort. <br> As we continue to evolve, our dedication to excellence
+                    remains unwavering. Every shoe that bears our name is a testament to our relentless pursuit of perfection and our unwavering passion for footwear. <br> Join us on this incredible journey as we strive to inspire confidence, empower
+                    individuality, and redefine the way you experience footwear. Welcome to MoonWalk, where every step is a testament to our legacy of excellence.
+                </p>
+            </div>
+
+        </div>
+
+
+
+        <script>
+            function functio(small) {
+                var full = document.getElementById("imagebox")
+                full.src = small.src
+            }
+        </script>
+
+    </div>
+    <div class="about_button" style="height: 50px;">
+        <a href="#products" class="about_btn">Shop Now</a>
+    </div>
+    <div class="br"><br><br><br></div><br>
+
+
+
+
+    <!-- contact-->
+    <div id="contact">
+        <h1>Want To Contact Us ?</h1><br><br>
+        <section id="contact-details">
+
+            <div class="details">
+                <span>GET IN TOUCH</span>
+                <h2>Visit one of our company locations or contact us today</h2>
+                <h3>Head Office</h3>
+                <div>
+                    <li>
+                        <i class="fas fa-map-location-dot"></i>
+                        <p> No: 79, New street , Purasaiwalkam , Chennai- 600 012</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-envelope-circle-check"></i>
+                        <p>MoonWalk@gmail.com</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone-volume"></i>
+                        <p>9344198202</p>
+                    </li>
+                    <li>
+                        <i class="fas fa-clock"></i>
+                        <p>Monday to Saturday : 10:00 AM - 10:00 PM</p>
+                    </li>
+                </div>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3886.400362789671!2d80.209646374256!3d13.073793812631198!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a5266a2b44ea549%3A0x24732a5af8f16afd!2sDwaraka%20Doss%20Goverdhan%20Doss%20Vaishnav%20College!5e0!3m2!1sen!2sin!4v1694949378954!5m2!1sen!2sin"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </section>
+    </div> <br><br>
+
+
+
+
+
+    <!--review-->
+    <div class="review" id="review">
+        <h1>Customer's Reviews</h1><br><br>
+        <div class="rows">
+            <div class="row ">
+                <div class="col-12 col-md-12 col-lg-4" id="col1">
+                    <div class="card" style="padding-left:10px;margin-left: 10px;">
+                        <div class="card-top">
+                            <div class="profile_image">
+                                <img src="images/girl_dp1.jpg">
+                            </div>
+
+                            <div class="name">
+                                <strong>Ranidi Lochana</strong>
+
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">I've been getting compliments left and right on my new shoes from MoonWalk. They're not only stylish but also incredibly comfortable to wear all day.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4" id="col1">
+                    <div class="card" style="padding-left:10px;margin-left: 10px;">
+                        <div class="card-top">
+                            <div class="profile_image">
+                                <img src="images/man_dp1.jpg">
+                            </div>
+
+                            <div class="name">
+                                <strong>Sayuru Tharanga</strong>
+
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Couldn't be happier with my purchase from MoonWalk! The shoes arrived neatly packaged and look even better than the pictures online.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4" id="col1">
+                    <div class="card" style="padding-left:10px;margin-left: 10px;">
+                        <div class="card-top">
+                            <div class="profile_image">
+                                <img src="images/man_dp2.jpg">
+                            </div>
+
+                            <div class="name">
+                                <strong>Senuda Dilwan</strong>
+
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Been wearing my new kicks from MoonWalk all day and my feet haven't hurt once! Super comfortable and durable, definitely worth the investment</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="br"><br></div>
+            <div class="row ">
+                <div class="col-12 col-md-12 col-lg-4" id="col1">
+                    <div class="card" style="padding-left:10px;margin-left: 10px;">
+                        <div class="card-top">
+                            <div class="profile_image">
+                                <img src="images/gir_dp2.jpg">
+                            </div>
+
+                            <div class="name">
+                                <strong>Kaveesha Vidurangi</strong>
+
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">MoonWalk is impressive! Found the perfect pair for every occasion and they all arrived quickly and as described.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4" id="col1">
+                    <div class="card" style="padding-left:10px;margin-left: 10px;">
+                        <div class="card-top">
+                            <div class="profile_image">
+                                <img src="images/man_dp3.jpg">
+                            </div>
+
+                            <div class="name">
+                                <strong>John Deo</strong>
+
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Received my order from MoonWalk faster than expected! The shoes are even better in person, great quality and perfect fit.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-12 col-lg-4" id="col1">
+                    <div class="card" style="padding-left:10px;margin-left: 10px;">
+                        <div class="card-top">
+                            <div class="profile_image">
+                                <img src="images/gir_dp3.jpg">
+                            </div>
+
+                            <div class="name">
+                                <strong>Charith Aruna</strong>
+
+                                <div class="like">
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star"></i>
+                                    <i class="fa-solid fa-star-half-stroke"></i>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Absolutely loving my new shoes from MoonWalk! They're so comfortable and stylish, definitely my new go-to pair.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <br><br><br>
+
+
+
+
+
+    <!-- services-->
+    <div class="services" id="Services">
+        <h1>our services</h1>
+
+        <div class="services_cards">
+            <div class="services_box">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3>Fast Delivery</h3>
+                <p>
+                    Experience lightning-fast delivery with MoonWalk ! Get your perfect pair of shoes delivered to your doorstep in record time.
+                </p>
+            </div>
+
+            <div class="services_box">
+                <i class="fa-solid fa-rotate-left"></i>
+                <h3>10 Days Replacement</h3>
+                <p>
+                    Discover unparalleled replacement speed with MoonWalk ! Swap out your shoes swiftly and seamlessly with our lightning-fast delivery service, ensuring your satisfaction in no time.
+                </p>
+            </div>
+
+            <div class="services_box">
+                <i class="fa-solid fa-headset"></i>
+                <h3>24 x 7 Support</h3>
+                <p>
+                    Experience convenience like never before with MoonWalk ! Our 24/7 service ensures assistance is just a click or call away, anytime you need it.
+                </p>
+            </div>
+        </div>
+
+    </div>
+    <div class="br"> <br><br><br></div><br>
+
+
+
+
+
+
+    <!-- footer-->
+    <footer>
+        <div class="row ">
+            <div class="col-12 col-md-6 col-lg-3" id="col1">
+                <h4 style="padding-top: 10px ; padding-bottom: 10px;"><strong>Contact</strong></h4>
+                <p><strong>Address: </strong> No: 79, New street , Purasaiwalkam </p>
+                <p><strong>City : </strong> Chennai - 600 012 </p>
+                <p><strong>Phone: </strong> 9344198202 </p>
+                <p><strong>Hours: </strong> 10:00 AM - 10:00 PM , MON - SAT</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4><strong>About</strong></h4>
+                <div class="">
+                    <span>About Us</span><br>
+                    <span>Delivery Information</span><br>
+                    <span>Privacy Policy</span><br>
+                    <span>Terms & Conditions</span><br>
+                    <span>Contact Us</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4><strong>Account</strong></h4>
+                <div class="">
+                    <span>Sign In </span><br>
+                    <span>View Cart </span><br>
+                    <span>My Wishlist </span><br>
+                    <span>Track My Order</span><br>
+                    <span>Help</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <h4><strong>Install App</strong></h4>
+                <p> From App store or Google Play store</p>
+                <a href="#"><i class="fa-brands fa-app-store-ios"></i></a>
+                <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                <p> Secured Payment Gateways</p>
+                <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+
+            </div>
+        </div>
+        <div class="follow">
+            <h3 style="font-size: 14px;"><strong>Follow Us On</strong></h3>
+            <div class="icon">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@2024 , MoonWalk - Ecommerce Website</p>
+        </div>
+    </footer>
+    <script src="addtocart.js"></script>
+</body>
+
+</html>

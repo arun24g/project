@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOON WALK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer">
+</head>
+
+
+<body>
+    <h2 style="height: 61px;
+    align-items: center;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    background: lightblue;">MoonWalk</h2>
+    <div class="login">
+
+        <img class="logo" src="images/logo.png">
+    </div>
+    <br><br>
+
+    <div class="cart-border">
+        <div class="cart">
+            <h3> MY CART </h3>
+
+            <ul id="cart-list">
+                <!-- Cart items will be displayed here -->
+            </ul>
+            <p id="total">Total = $ 0 /-
+            </p>
+        </div>
+
+        <button id="place-order" onclick="window.location.href='thank-you.html'">Place Order</button>
+        <button id="clear-button" onclick="clearCart()">Clear Cart</button>
+    </div>
+
+    <br>
+    <div class="d-grid ">
+        <button onclick="window.location.href='index.html#products'" class="btn" style="background-color: lightblue;" type="button">BACK TO PURCHASE SOME MORE PRODUCTS</button>
+
+    </div><br>
+
+    <br>
+
+    <!-- footer-->
+    <footer>
+        <div class="row ">
+            <div class="col-12 col-md-6 col-lg-3" id="col1">
+                <h4 style="padding-top: 10px ; padding-bottom: 10px;"><strong>Contact</strong></h4>
+                <p><strong>Address: </strong> No: 79, New street , Purasaiwalkam </p>
+                <p><strong>City : </strong> Chennai - 600 012 </p>
+                <p><strong>Phone: </strong> 9344198202 </p>
+                <p><strong>Hours: </strong> 10:00 AM - 10:00 PM , MON - SAT</p>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4><strong>About</strong></h4>
+                <div class="">
+                    <span>About Us</span><br>
+                    <span>Delivery Information</span><br>
+                    <span>Privacy Policy</span><br>
+                    <span>Terms & Conditions</span><br>
+                    <span>Contact Us</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3">
+                <h4><strong>Account</strong></h4>
+                <div class="">
+                    <span>Sign In </span><br>
+                    <span>View Cart </span><br>
+                    <span>My Wishlist </span><br>
+                    <span>Track My Order</span><br>
+                    <span>Help</span>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 ">
+                <h4><strong>Install App</strong></h4>
+                <p> From App store or Google Play store</p>
+                <a href="#"><i class="fa-brands fa-app-store-ios"></i></a>
+                <a href="#"><i class="fa-brands fa-google-play"></i></a>
+                <p> Secured Payment Gateways</p>
+                <a href="#"><i class="fa-brands fa-cc-visa"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-mastercard"></i></a>
+                <a href="#"><i class="fa-brands fa-cc-paypal"></i></a>
+
+            </div>
+        </div>
+        <div class="follow">
+            <h3 style="font-size: 14px;"><strong>Follow Us On</strong></h3>
+            <div class="icon">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>@2024 , MoonWalk - Ecommerce Website</p>
+        </div>
+    </footer>
+    <script src="addtocart.js"></script>
+
+</body>
+
+</html>
