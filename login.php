@@ -174,7 +174,7 @@ echo "Rendering HTML...<br>";
             <p class="title">MoonWalk</p>
             <div style="height: 190px;
             margin-top: 35px;">
-                <img class="log_logo" src="images/logo.png">
+                <img class="log_logo" src="logo.png">
             </div>
         </div>
 
