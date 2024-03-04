@@ -197,7 +197,7 @@ echo "Rendering HTML...<br>";
                 <br><br>
                 <input style="margin-top: -22px;" class=" btn btn-lg btn-secondary size" id="login" type="submit" value="LOGIN"><br><br>
                 <label>New user ?</label>
-                <a style="position: relative;top: -7px;" href="signup.html">Signup now !</a>
+                <a style="position: relative;top: -7px;" href="signup.php">Signup now !</a>
             </form>
         </div>
     </div>
