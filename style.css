@@ -201,7 +201,7 @@ html {
 .home_content .home_para {
     padding-top: 10px;
     width: 70%;
-    background: linear-gradient(to right, #c26f81, #9dd2e7);
+    background: linear-gradient(to right, lightpink , #9dd2e7);
     line-height: 22px;
     text-align: justify;
     padding: 25px 30px;
