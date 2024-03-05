@@ -36,13 +36,25 @@
             </p>
         </div>
 
-        <button id="place-order" onclick="window.location.href='thank-you.html'">Place Order</button>
+        <button id="place-order" onclick="openPopup()">Place Order</button>
         <button id="clear-button" onclick="clearCart()">Clear Cart</button>
     </div>
+    <div class="popup" id="popup">
+        <img src="tick.png">
+        <h2>Thank You !</h2>
+        <p>Your order is successfully placed . Thanks !<br> <span><strong>Order No : 7878 </strong></span></p>
+        <button type="button" onclick="window.location.href='index.html#home'">OK</button>
+    </div>
+    <script>
+        let popup = document.getElementById("popup");
 
+        function openPopup() {
+            popup.classList.add("open-popup")
+        }
+    </script>
     <br>
     <div class="d-grid ">
-        <button onclick="window.location.href='index.html#products'" class="btn" style="background-color: lightblue;" type="button">BACK TO PURCHASE SOME MORE PRODUCTS</button>
+        <button onclick="window.location.href='index.html#products'" class="btn" style="background-color: lightblue;" type="button">BACK TO PRODUCTS</button>
 
     </div><br>
 
