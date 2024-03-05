@@ -648,6 +648,60 @@ footer .copyright {
     color: blue;
 }
 
+.popup {
+    width: 400px;
+    background: lightpink;
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.1);
+    transition: transform 0.4s, top 0.4s;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+    visibility: hidden;
+}
+
+.open-popup {
+    visibility: visible;
+    top: 50%;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.popup img {
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    margin-top: 20px;
+}
+
+.popup h2 {
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button {
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #2076c7;
+    color: aliceblue;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.popup button:hover {
+    color: #2076c7;
+    background-color: aliceblue;
+}
+
+
 @media(max-width:950px) {
     /*home*/
     .home_content {
@@ -805,6 +859,9 @@ footer .copyright {
     .cart-border {
         width: 500px;
         padding-left: 20px;
+    }
+    .popup {
+        width: 303px;
     }
     /*main*/
     .main_content {
